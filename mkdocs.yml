@@ -1,0 +1,31 @@
+site_name: 'MkDocs sample'
+site_url: https://github.com/zoetrope/mkdocs-sample
+repo_url: https://github.com/zoetrope/mkdocs-sample
+repo_name: zoetrope/mkdocs-sample
+edit_uri: edit/master/docs/
+strict: true
+theme:
+  name: material
+dev_addr: 0.0.0.0:8000
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite
+  - plantuml_markdown:
+      server: http://www.plantuml.com/plantuml
+      format: svg
+  - pymdownx.emoji
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.details
+  - toc:
+      permalink: True
+extra:
+  palette:
+    primary: 'Blue Grey'
+    accent: 'Light Blue'
+
+nav:
+  - Home: index.md
