@@ -3,7 +3,7 @@ site_url: https://github.com/zoetrope/mkdocs-sample
 repo_url: https://github.com/zoetrope/mkdocs-sample
 repo_name: zoetrope/mkdocs-sample
 edit_uri: edit/master/docs/
-strict: true
+strict: false
 theme:
   name: material
 dev_addr: 0.0.0.0:8000
