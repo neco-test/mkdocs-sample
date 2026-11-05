@@ -5,12 +5,12 @@
 
 ## 手元でビルドして表示確認をする方法
 
-mkdocsを動作させるためにはPython3が必要となります。
+mkdocsを動作させるためにはPython 3.14が必要となります。
 
 まず必要なパッケージをインストールします。
 
 ```bash
-$ pip3 install -r requirements.txt
+$ pip3 install --require-hashes --only-binary :all: -r requirements.txt
 ```
 
 ビルドします。
